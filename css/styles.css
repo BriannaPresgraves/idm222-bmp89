@@ -29,7 +29,7 @@
    box-sizing: border-box;
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (max-width: 412px) {
     body {
         align-items: center;
         background-color: var(--white);
