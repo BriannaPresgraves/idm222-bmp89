@@ -235,5 +235,16 @@ footer {
             height: auto;
             width: 85%;
         }
-        
+
+        .footer, .contact {
+            font-size: 10px;
+        }
+
+        h3, .nav {
+            font-size: 15px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
     }
