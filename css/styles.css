@@ -107,14 +107,14 @@
     
     .img1 {
         display: block;
-        height: 100px;
+        height: 80px;
         margin-inline: auto;
         width: auto;
     }
     
     .img2 {
         display: block;
-        height: 425px;
+        height: 405px;
         margin-inline: auto;
         margin-bottom: 1.25rem;
         width:auto; 
@@ -122,35 +122,35 @@
     
     .img3 {
         display: block;
-        height: 200px;
+        height: 160px;
         margin-inline: auto;
         width:auto; 
     }
     
     .img4 {
         display: block;
-        height: 150px;
+        height: 130px;
         margin-inline: auto;
         width:auto; 
     }
     
     .img5 {
         display: block;
-        height: 200px;
+        height: 180px;
         margin-inline: auto;
         width:auto; 
     }
     
     .img6 {
         display: block;
-        height: 300px;
+        height: 280px;
         margin-inline: auto;
         width: auto;
     }
     
     .img7 {
         display: block;
-        height: 75px;
+        height: 55px;
         margin-inline: auto;
         width: auto;
     }
@@ -225,11 +225,11 @@
         color: var(--light-grey);
     }
     .wrapper {
-        max-width: 420px;
+        max-width: 370px;
     }    
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (min-width: 359px) and (max-width: 412px) {
     body {
         align-items: center;
         background-color: var(--white);
