@@ -81,11 +81,12 @@ nav {
 footer {
     align-items: center;
     background-color: var(--blue);
+    clear: both;
     display: flex;
     font-size: 10px;
     justify-content: space-around;
     max-width: 100%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     }
     
@@ -158,26 +159,34 @@ footer {
 .lantern {
     background-color: var(--light-grey);
     color: var(--blue);
-    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     margin-inline: auto;
     padding-block: 0.1rem;
-    width: 350px;
+    width: 450px;
     }
     
 .malloo {
     background-color: var(--light-grey);
     color: var(--blue);
-    float: left;
-    margin-inline: 2rem;
+    margin-bottom: 2rem;
+    margin-inline: auto;
     margin-top: 2rem;
     padding-block: 0.1rem;
-    width: 350px;
+    width: 450px;
     }
+
+.studies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
     
 .phone {
     display: block;
-    height: 160px;
-    margin-inline: auto;
+    height: 260px;
+    margin-inline: -44px;
     width:auto;
     }
     
@@ -195,8 +204,8 @@ footer {
 
 .screen {
     display: block;
-    height: 160px;
-    margin-inline: auto;
+    height: 260px;
+    margin-inline: -59px;
     width:auto; 
     }
     
