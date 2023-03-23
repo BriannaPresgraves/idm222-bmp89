@@ -83,7 +83,7 @@ footer {
     background-color: var(--blue);
     clear: both;
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
     justify-content: space-around;
     max-width: 100%;
     margin-top: 2rem;
@@ -163,7 +163,7 @@ footer {
     margin-top: 2rem;
     margin-inline: auto;
     padding-block: 0.1rem;
-    width: 450px;
+    width: 490px;
     }
     
 .malloo {
@@ -173,7 +173,7 @@ footer {
     margin-inline: auto;
     margin-top: 2rem;
     padding-block: 0.1rem;
-    width: 450px;
+    width: 490px;
     }
 
 .studies {
@@ -185,8 +185,8 @@ footer {
     
 .phone {
     display: block;
-    height: 260px;
-    margin-inline: -44px;
+    height: 300px;
+    margin-inline: -64px;
     width:auto;
     }
     
@@ -196,7 +196,7 @@ footer {
     
 .resume {
     display: block;
-    height: 400px;
+    height: 800px;
     margin-bottom: 1rem;
     margin-inline: auto;
     width: auto;
@@ -204,8 +204,8 @@ footer {
 
 .screen {
     display: block;
-    height: 260px;
-    margin-inline: -59px;
+    height: 300px;
+    margin-inline: -81px;
     width:auto; 
     }
     
