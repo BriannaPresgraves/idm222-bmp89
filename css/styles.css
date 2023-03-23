@@ -291,61 +291,133 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
     .wrapper {
-        width: 900px;
+        width: 920px;
     }
-    
-}
 
-@media screen and (max-width: 370px) {
-    .wrapper {
-        max-width: 360px;
+    header {
+        margin-inline: 5rem;
     }
 
     .malloo, .lantern {
-        width: 300px;
+        width: 350px;
     }
 
-    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+    .resume {
+        height: 750px;
+    }
+
+    .img1, .img3, .img4, .img5, .img7 {
         height: auto;
-        width: 90%;
+        width: 65%;
     }
 
-    .footer, .contact {
-        font-size: 10px;
+    .img2 {
+        height: auto;
+        width: 450px;
     }
 
-    h3, .nav, .study {
-        font-size: 16px;
+    h1 {
+        margin-inline: 2rem;
+    }
+    
+    .heading {
+        margin-inline: 6rem;
     }
 
     p {
-        font-size: 15px;
-        line-height: 1.4;
+        margin-inline: 7rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 740px;
     }
 
-    h2, .heading {
-        font-size: 18px;
-    }
-
-    h1, .name {
-        font-size: 22px;
+    header {
+        margin-inline: 5rem;
     }
 
     .phone {
-        margin-inline: -26px;
-    }
-
-    .screen {
-        margin-inline: -23px;
-    }
-    }
-
-@media screen and (max-width: 500px) {
-    .wrapper {
-        width: 420px;
+        height: 200px;
+        margin-inline: -34px;
     }
     
+    .screen {
+        height: 200px;
+        margin-inline: -41px;
+    }
+
+    .studies {
+        flex-direction: column;
+    }
+
+    .malloo, .lantern {
+        width: 350px;
+    }
+
+    .resume {
+        height: 500px;
+    }
+
+    .img2 {
+        height: auto;
+        width: 350px;
+    }
+
+    h1 {
+        margin-inline: 2rem;
+        font-size: 22px;
+    }
+    
+    .heading {
+        margin-inline: 4rem;
+    }
+
+    p {
+        margin-inline: 5rem;
+        font-size: 15px;
+    }
 }
 
+@media screen and (max-width: 430px) {
+    .wrapper {
+        width: 430px;
+    }
+
+    header {
+        margin-inline: 5rem;
+    }
+
+    .malloo, .lantern {
+        width: 350px;
+    }
+
+    .resume {
+        height: 750px;
+    }
+
+    .img1, .img3, .img4, .img5, .img7 {
+        height: auto;
+        width: 65%;
+    }
+
+    .img2 {
+        height: auto;
+        width: 450px;
+    }
+
+    h1 {
+        margin-inline: 2rem;
+    }
+    
+    .heading {
+        margin-inline: 6rem;
+    }
+
+    p {
+        margin-inline: 7rem;
+    }
+}
