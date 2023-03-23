@@ -46,7 +46,7 @@ header {
 h1 {
     font-family: 'epilouge', sans-serif;
     font-size: 24px;
-    margin-inline: 3rem;
+    margin-inline: 4rem;
     margin-top: 2rem;
     }
     
@@ -59,14 +59,14 @@ h2 {
 h3 {
     font-family: 'loraregular', 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     }
     
 p {
     font-family: 'loraregular', 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
-    margin-inline: 1.5rem;
+    margin-inline: 10rem;
     }
     
 nav {
@@ -105,54 +105,56 @@ footer {
     
 .heading {
     margin-top: 2rem;
+    margin-inline: 9rem;
     }
     
 .img1 {
     display: block;
-    height: 100px;
+    height: 290px;
     margin-inline: auto;
     width: auto;
     }
     
 .img2 {
     display: block;
-    height: 425px;
+    height: 750px;
     margin-inline: auto;
+    margin-top: 1.75rem;
     margin-bottom: 1.25rem;
     width:auto; 
     }
     
 .img3 {
     display: block;
-    height: 200px;
+    height: 550px;
     margin-inline: auto;
     width:auto; 
     }
     
 .img4 {
     display: block;
-    height: 150px;
+    height: 400px;
     margin-inline: auto;
     width:auto; 
     }
     
 .img5 {
     display: block;
-    height: 200px;
+    height: 550px;
     margin-inline: auto;
     width:auto; 
     }
     
 .img6 {
     display: block;
-    height: 300px;
+    height: 500px;
     margin-inline: auto;
     width: auto;
     }
     
 .img7 {
     display: block;
-    height: 75px;
+    height: 220px;
     margin-inline: auto;
     width: auto;
     }
@@ -197,8 +199,9 @@ footer {
     
 .resume {
     display: block;
-    height: 800px;
+    height: 1000px;
     margin-bottom: 1rem;
+    margin-top: 3rem;
     margin-inline: auto;
     width: auto;
     }
@@ -241,4 +244,54 @@ footer {
     max-width: 1550px;
     }    
 
+@media screen and (max-width: 370px) {
+    .wrapper {
+        max-width: 360px;
+    }
+
+    .malloo, .lantern {
+        width: 300px;
+    }
+
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+        height: auto;
+        width: 90%;
+    }
+
+    .footer, .contact {
+        font-size: 10px;
+    }
+
+    h3, .nav, .study {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    h2, .heading {
+        font-size: 18px;
+    }
+
+    h1, .name {
+        font-size: 22px;
+    }
+
+    .phone {
+        margin-inline: -26px;
+    }
+
+    .screen {
+        margin-inline: -23px;
+    }
+    }
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 420px;
+    }
+    
+}
 
